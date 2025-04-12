@@ -464,7 +464,7 @@ public class FYVideoCompressor {
                 AVVideoWidthKey: size.width,
                AVVideoHeightKey: size.height,
           AVVideoScalingModeKey: AVVideoScalingModeResizeAspectFill,
-          AVVideoExpectedSourceFrameRateKey: targetFPS,
+          //AVVideoExpectedSourceFrameRateKey: targetFPS,
 AVVideoCompressionPropertiesKey: [AVVideoAverageBitRateKey: bitrate,
                                     AVVideoProfileLevelKey: AVVideoProfileLevelH264HighAutoLevel,
                                  AVVideoH264EntropyModeKey: AVVideoH264EntropyModeCABAC,
